@@ -85,6 +85,14 @@ header ul{
     align-items: center;
 }
 header ul li{
-    padding: 1.5rem;
+    padding: 1rem;
+}
 
+/* NAV */
+nav{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
 }
