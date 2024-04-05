@@ -22,7 +22,7 @@ body{
     font-family: "Cormorant Garamond", serif;
     font-size: 1.6rem;
     line-height: 2rem;
-    min-height: 1500px;
+    min-height: 3000px;
     color: var(--dark);
 }
 h1, h2, h3, h4, h5, h6{
@@ -229,6 +229,7 @@ nav{
 .content{
     display: flex;
     margin: 3rem 0;
+    align-items: start;
 }
 .articles{
     flex: auto;
@@ -243,6 +244,10 @@ nav{
         "author img"
         "details img"
     ;
+    margin-bottom: 2rem;
+}
+.articles article h3, .articles article p{
+    margin: 0.2rem 0;
 }
 .articles article img{
     grid-area: img;
@@ -261,4 +266,20 @@ nav{
 }
 .popular{
     flex: 350px;
+    padding: 0 3rem;
+    position: sticky;
+    top: 45px;
+}
+.popular ul li{
+    display: grid;
+    grid-template-columns: 50px auto;
+    place-items: center center;
+    margin-bottom: 1rem;
+}
+.popular ul li div:first-child{
+    font-size: 3rem;
+    color: var(--gray-hint);
+}
+.popular ul li p, .popular ul li h3{
+    margin: 0.2rem;
 }
