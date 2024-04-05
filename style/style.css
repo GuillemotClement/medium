@@ -22,7 +22,6 @@ body{
     font-family: "Cormorant Garamond", serif;
     font-size: 1.6rem;
     line-height: 2rem;
-    min-height: 3000px;
     color: var(--dark);
 }
 h1, h2, h3, h4, h5, h6{
